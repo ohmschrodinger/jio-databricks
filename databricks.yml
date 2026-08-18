@@ -1,0 +1,14 @@
+bundle:
+  name: jio-databricks
+
+targets:
+
+  dev:
+    mode: development
+    workspace:
+      host: https://dbc-ca0a50a6-481d.cloud.databricks.com
+
+  prod:
+    mode: production
+    workspace:
+      host: https://YOUR-JIO-PROD
