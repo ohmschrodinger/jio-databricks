@@ -5,10 +5,13 @@ targets:
 
   dev:
     mode: development
+    default: true
     workspace:
       host: https://dbc-ca0a50a6-481d.cloud.databricks.com
+      root_path: /Workspace/Users/omdhamame@gmail.com/jio-databricks
 
   prod:
     mode: production
     workspace:
-      host: https://YOUR-JIO-PROD
+      host: https://dbc-ca0a50a6-481d.cloud.databricks.com
+      root_path: /Workspace/Users/omdhamame@gmail.com/jio-databricks-prod
